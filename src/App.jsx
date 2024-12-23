@@ -23,7 +23,7 @@ function App() {
           animate={{ opacity: 1 }}
           className="bg-gray-900 text-white py-8 text-center"
         >
-          <p>&copy; {new Date().getFullYear()} MindfulCare. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Mindescape. All rights reserved.</p>
         </motion.footer>
       </div>
     </AnimatePresence>
