@@ -17,13 +17,12 @@ export default function About() {
         >
           <img
             src={aboutimg}
-            className="rounded-lg shadow-lg max-w-full sm:max-w-sm lg:max-w-md"
+            className="hidden sm:block rounded-lg shadow-lg max-w-full sm:max-w-sm lg:max-w-md"
             alt="Support group"
           />
         </motion.div>
-        
 
-        {/* Right Side - Image */}
+        {/* Right Side - Text Content */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -34,7 +33,7 @@ export default function About() {
           <h2 className="text-4xl sm:text-5xl font-bold text-purple-800 mb-4 leading-tight">
             Our Story
           </h2>
-          <p className="text-lg sm:text-xl text-gray-600 mb-6 leading-relaxed">
+          <p className="text-lg sm:text-xl text-gray-600 mb-6 tracking-wide">
             Mindescape is more than just a mental health service; it's a nurturing community focused on empowering young adults to enhance their mental well-being. With our commitment to utilizing cutting-edge virtual reality tools, personalized support from qualified professionals, and a welcoming environment, our goal is to help you navigate your mental health journey and achieve your aspirations. Whether you're seeking guidance for the first time or looking to deepen your understanding, we invite you to join us in fostering a healthier, happier mindset.
           </p>
           <motion.button
@@ -50,5 +49,6 @@ export default function About() {
     </div>
   );
 }
+
 
 
