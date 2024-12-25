@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import About from './components/About';
+import Testimonials from './components/Testimonials';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           </section>
           <About />
           <Services />
+          <Testimonials />
           <Contact />
         </main>
         <motion.footer
