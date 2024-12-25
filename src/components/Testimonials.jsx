@@ -2,6 +2,9 @@ import { motion } from "framer-motion";
 import user4 from "../../public/user4.jpg";
 import user5 from "../../public/user5.jpg";
 import user6 from "../../public/user6.jpg";
+import user1 from "../../public/user1.jpg";
+import user2 from "../../public/user2.jpg";
+import user3 from "../../public/user3.jpg";
 
 const testimonials = [
   {
@@ -27,24 +30,24 @@ const testimonials = [
   },
   {
     quote:
-      "I’ve never felt so comfortable sharing my thoughts and emotions. Highly recommend to anyone seeking genuine support!",
-    author: "Daniel R.",
-    age: 45,
-    image: user5,
+      "I love Mindescape! The workshops are enlightening, and the wellness programs have made a significant difference. The environment is warm and inviting, and I always leave feeling uplifted.",
+    author: "Lucas Evans",
+    age: 36,
+    image: user1,
   },
   {
     quote:
-      "I’ve never felt so comfortable sharing my thoughts and emotions. Highly recommend to anyone seeking genuine support!",
-    author: "Daniel R.",
-    age: 45,
-    image: user5,
+      "Mindescape is amazing! The virtual reality therapy is unlike anything else, and the community is so supportive. I've never felt more empowered to take charge of my mental health.",
+    author: "James Gordon",
+    age: 29,
+    image: user3,
   },
   {
     quote:
-      "I’ve never felt so comfortable sharing my thoughts and emotions. Highly recommend to anyone seeking genuine support!",
-    author: "Daniel R.",
-    age: 45,
-    image: user5,
+      "Mindescape has truly transformed my life! The therapists are incredible, guiding me through my challenges. The sessions are engaging, and I feel more balanced mentally and emotionally.",
+    author: "Sarah Johnson",
+    age: 25,
+    image: user2,
   },
 ];
 
