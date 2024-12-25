@@ -11,7 +11,7 @@ function App() {
 
   return (
     <AnimatePresence>
-      <div className="relative">
+      <div className="relativ">
         <Navbar />
         <main>
           <section id="home">
@@ -25,7 +25,7 @@ function App() {
         <motion.footer
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          className="bg-gray-900 text-white py-8 text-center"
+          className="bg-gradient-to-r from-purple-950 to-purple-600 text-white py-8 text-center"
         >
           <p>&copy; {new Date().getFullYear()} Mindescape. All rights reserved.</p>
         </motion.footer>

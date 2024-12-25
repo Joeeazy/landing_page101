@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 
 export default function Navbar() {
-  const navItems = ['Home', 'Services', 'Contact'];
+  const navItems = ['Home', 'Services', 'Contact', 'About', 'Testimonials', 'Hero'];
   
   return (
     <motion.nav
